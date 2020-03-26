@@ -24,18 +24,6 @@
 
 <br>
 
-### Languages
-
-* [Chinese Version (Thanks to barretlee)](http://www.barretlee.com/blog/2016/07/09/a-kickstarter-guide-to-writing-es6/)
-* [Portuguese Version (Thanks to alexmoreno)](https://github.com/alexmoreno/ES6-para-humanos)
-* [Russian Version (Thanks to etnolover)](https://github.com/etnolover/ES6-for-humans-translation)
-* [Korean Version (Thanks to scarfunk)](https://github.com/metagrover/ES6-for-humans/tree/korean-version)
-* [French Version (Thanks to tnga)](https://github.com/metagrover/ES6-for-humans/tree/french-version)
-* [Spanish Version (Thanks to carletex)](https://github.com/metagrover/ES6-for-humans/tree/spanish-version)
-* [Japanese Version (Thanks to isdh)](https://github.com/metagrover/ES6-for-humans/tree/japanese-version)
-
-<br>
-
 ### 1. let, const and block scoping
 
 `let` allows you to create declarations which are bound to any block, called block scoping. Instead of using `var`, which provides function scope, it is recommended to use block scoped variables (`let` or `const`) in ES6.
