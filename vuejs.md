@@ -167,3 +167,6 @@
 * v-on:keyup .down
 * v-on:keyup .left
 * v-on:keyup .right
+
+![image](https://assets.digitalocean.com/articles/alligator/vuejs/external/component-lifecycle.png)
+
