@@ -1,4 +1,4 @@
-# 13 August 2020 training Document
+# 12 August 2020 and 13 August 2020 training Document
 
 ### DOM Node
 #### Node Properties
