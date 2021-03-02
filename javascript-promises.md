@@ -1,23 +1,3 @@
----
-title: Understanding JavaScript Promises
-description: 'Promises are one way to deal with asynchronous code in JavaScript, without writing too many callbacks in your code.'
-authors: flaviocopes, potch, MylesBorins, LaRuaNa, bdharrington7, amiller-gh, ahmadawais
-section: Getting Started
----
-
-## Introduction to promises
-
-<iframe
-  title="Introduction to promises"
-  src="https://glitch.com/embed/#!/embed/nodejs-dev-0034-01?path=server.js&previewSize=35&attributionHidden=true&sidebarCollapsed=true"
-  alt="nodejs-dev-0034-01 on Glitch"
-  style="height: 400px; width: 100%; border: 0;">
-</iframe>
-
-A promise is commonly defined as **a proxy for a value that will eventually become available**.
-
-Promises are one way to deal with asynchronous code, without getting stuck in [callback hell](http://callbackhell.com/).
-
 Promises have been part of the language for years (standardized and introduced in ES2015), and have recently become more integrated, with **async** and **await** in ES2017.
 
 **Async functions** use promises behind the scenes, so understanding how promises work is fundamental to understanding how `async` and `await` work.
