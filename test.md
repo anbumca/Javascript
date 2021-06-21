@@ -101,47 +101,36 @@
     You can delete a cookie by setting the expiry date as a passed date. You don't need to specify a cookie value in this case.
     For example, you can delete a username cookie in the current page as below.
 
-20. ### What are the differences between cookie, local storage and session storage
-
-    Below are some of the differences between cookie, local storage and session storage,
-
-    | Feature | Cookie | Local storage | Session storage |
-    |---- | --------- | ----- | ----- |
-    | Accessed on client or server side | Both server-side & client-side | client-side only | client-side only |
-    | Lifetime | As configured using Expires option  | until deleted | until tab is closed |
-    | SSL support | Supported | Not supported | Not supported |
-    | Maximum data size | 4KB | 5 MB | 5MB |
-
-21. ### What is the main difference between localStorage and sessionStorage
+20. ### What is the main difference between localStorage and sessionStorage
 
     LocalStorage is the same as SessionStorage but it persists the data even when the browser is closed and reopened(i.e it has no expiration time) whereas in sessionStorage data gets cleared when the page session ends.
 
-22. ### How do you access web storage
+21. ### How do you access web storage
 
     The Window object implements the `WindowLocalStorage` and `WindowSessionStorage` objects which has `localStorage`(window.localStorage) and `sessionStorage`(window.sessionStorage) properties respectively. These properties create an instance of the Storage object, through which data items can be set, retrieved and removed for a specific domain and storage type (session or local).
     For example, you can read and write on local storage objects as below
 
-23. ### What is a storage event and its event handler
+22. ### What is a storage event and its event handler
 
     The StorageEvent is an event that fires when a storage area has been changed in the context of another document. Whereas onstorage property is an EventHandler for processing storage events.
 
-24. ### Why do you need web storage
+23. ### Why do you need web storage
 
     Web storage is more secure, and large amounts of data can be stored locally, without affecting website performance. Also, the information is never transferred to the server. Hence this is a more recommended approach than Cookies.
 
-25. ### What is a promise
+24. ### What is a promise
 
     A promise is an object that may produce a single value some time in the future with either a resolved value or a reason that it’s not resolved(for example, network error). It will be in one of the 3 possible states: fulfilled, rejected, or pending.
 
-26. ### What is a callback function
+25. ### What is a callback function
 
     A callback function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an action.
 
-27. ### Why do we need callbacks
+26. ### Why do we need callbacks
 
     The callbacks are needed because javascript is an event driven language. That means instead of waiting for a response javascript will keep executing while listening for other events.
 
-28. ### What are events
+27. ### What are events
 
      Events are "things" that happen to HTML elements. When JavaScript is used in HTML pages, JavaScript can `react` on these events. Some of the examples of HTML events are,
 
@@ -149,7 +138,7 @@
      2. Input field was changed
      3. Button was clicked
 
-29. ### What are the various url properties of location object
+28. ### What are the various url properties of location object
 
      The below `Location` object properties can be used to access URL components of the page,
      1. href - The entire URL
@@ -161,9 +150,9 @@
      7. search - The query portion of the URL
      8. hash - The anchor portion of the URL
 
-## Vue js topics
+# Vue js topics
 
-### Config
+### what are the vuejs Config which is you used in your project level min 4 
 * silent
 * optionMergeStrategies
 * devtools
@@ -173,7 +162,7 @@
 * performance
 * productionTip
 
-### Lifecycle Hooks
+### Vuejs Lifecycle Hooks
 * beforeCreate
 * created
 * beforeMount
@@ -185,25 +174,25 @@
 * beforeDestroy
 * destroyed
 
-### DOM Keywords
+### Vuejs DOM Keywords
 * el
 * template
 * render
 * renderError
 
-### Composition
+### Vuejs Composition
 * parent
 * mixins
 * extends
 * provide / inject
 
-### Events
+### Vuejs Events
 * vm.$on
 * vm.$once
 * vm.$off
 * vm.$emit
 
-### Properties
+### Vuejs Properties
 * vm.$data
 * vm.$props
 * vm.$el
@@ -217,7 +206,7 @@
 * vm.$isServer
 
 
-### Directives HTML
+### Vuejs Directives HTML
 * v-text
 * v-html
 * v-show
@@ -232,14 +221,14 @@
 * v-cloak
 * v-once
 
-### Built-In Components
+### Vuejs Built-In Components
 * component
 * transition
 * transition-group
 * keep-alive
 * slot
 
-### Event Modifiers
+### Vuejs Event Modifiers
 * v-on:click .native
 * v-on:click .stop
 * v-on:click .prevent
